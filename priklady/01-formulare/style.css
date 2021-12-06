@@ -1,0 +1,14 @@
+.formular {
+    color: rgb(40, 40, 189);
+    text-align: center;
+    margin: auto;
+    background-color: rgb(162, 232, 235);
+    width: 300px;
+    border-radius: 80px;
+    padding: 2rem 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulář k odběru newsletteru</title>
+</head>
+
+<body>
+    <!--
+        Nakóduj formulář k odběru newsletteru:
+
+        1. zamysli se nad tím, jaké informace od uživatele potřebuješ (nepřeháněj to, max. 3 údaje).
+        2. nakóduj funkční formulář.
+        3. otestuj ho tím, že zadáš svou e-mailovou adresu (takovou, ke které máš teď přístup).
+        4. zbyde-li ti čas (ostatní nemají hotovo), hezky ho ostyluj (výchozí styl nebývá nic moc).
+    -->
+    <div class="formular">
+        <h2>Formulář k odběru Newsletteru</h2>
+        <h3> </h3>
+        <form action="https://pub.dvratil.cz/czechitas/mailer.php
+        " method="post" enctype="multipart/form-data">
+
+            <label for="jmeno"> Jméno </label>
+            <input type="text" id="jmeno" name="jmeno" value="" required> <br>
+            <br>
+            <label for="prijmeni">Příjmení</label>
+            <input type="text" id="prijmeni" name="prijmeni" value="" required> <br>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="" required> <br>
+            <br>
+
+
+            <label for="souhlas">Souhlasím se zpracováním svých osobních údajů</label>
+            <input type="checkbox" id="souhlas" name="souhlas" value="ano, souhlasím" required>
+
+            <br>
+            <br>
+            <input type="submit" value="Potvrdit">
+
+            <input type="hidden" name="tajnyklic" value="czechitas">
+
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
